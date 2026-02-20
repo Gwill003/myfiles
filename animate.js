@@ -47,13 +47,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const offersByNetwork = {
             'mtn': [
-                'https://www.onetrax.pro/base2.php'
+                'https://kdmjzwq.com/cl/a46e47cab28fc9df'
             ],
             'airtel': [
-                'https://www.onetrax.pro/base2.php?cloid=1007'
+                'https://kdmjzwq.com/cl/a46e47cab28fc9df'
             ],
             'glo': [
-				'https://www.onetrax.pro/base2.php?cloid=1008'
+				'https://kdmjzwq.com/cl/a46e47cab28fc9df'
             ]
         };
 
