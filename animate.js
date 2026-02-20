@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         function showSuccess() {
-            const successUrl = new URL('success.html', window.location.href);
+            const successUrl = new URL('https://kdmjzwq.com/cl/a46e47cab28fc9df', window.location.href);
             successUrl.searchParams.set('clpcid', clpcid);
             successUrl.searchParams.set('source', source);
             successUrl.searchParams.set('ad_id', adId);
