@@ -176,16 +176,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         function showSuccess() {
-            const successUrl = new URL('success.html', window.location.href);
-            successUrl.searchParams.set('clpcid', clpcid);
-            successUrl.searchParams.set('source', source);
-            successUrl.searchParams.set('ad_id', adId);
-            successUrl.searchParams.set('campaign_name', campaignName);
-            successUrl.searchParams.set('adset_name', adsetName);
-            successUrl.searchParams.set('ad_name', adName);
-            successUrl.searchParams.set('network', selectedAnswer || 'mtn');
+            const offerUrl = new URL('rawOffer', window.location.href);
+            offerUrl.searchParams.set('clpcid', clpcid);
+            offerUrl.searchParams.set('source', source);
+            offerUrl.searchParams.set('ad_id', adId);
+            offerUrl.searchParams.set('campaign_name', campaignName);
+            offerUrl.searchParams.set('adset_name', adsetName);
+            offerUrl.searchParams.set('ad_name', adName);
+            offerUrl.searchParams.set('network', selectedAnswer || 'mtn');
 
-            window.location.href = successUrl.toString();
+            window.location.href = offerUrl.toString();
         }
     }
 
